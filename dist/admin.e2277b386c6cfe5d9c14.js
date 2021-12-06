@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/admin.js":
-/*!**********************!*\
-  !*** ./src/admin.js ***!
-  \**********************/
+/***/ "./admin.js":
+/*!******************!*\
+  !*** ./admin.js ***!
+  \******************/
 /***/ (() => {
 
-eval("const adminAnalytics = () => {\r\n    let counter = 0\r\n    let reset = false\r\n\r\n    const listener = () => likeAdd++\r\n    document.addEventListener('click', listener)\r\n\r\n    return {\r\n        delete() {\r\n            document.removeEventListener('click', listener)\r\n            reset = true\r\n        },\r\n        getClick() {\r\n            if(reset){\r\n                return 'reset count'\r\n            }\r\n            return counter\r\n        }\r\n    }\r\n\r\n}\n\n//# sourceURL=webpack://lernwebpack/./src/admin.js?");
+eval("const adminAnalytics = () => {\r\n   const random = Math.random(50)\r\n   console.log(random)\r\n}\n\n//# sourceURL=webpack:///./admin.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("const adminAnalytics = () => {\r\n    let counter = 0\r\n    let reset = f
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/admin.js"]();
+/******/ 	__webpack_modules__["./admin.js"]();
 /******/ 	
 /******/ })()
 ;
