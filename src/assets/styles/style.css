@@ -1,0 +1,13 @@
+
+.container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    background-color: aqua;
+}
+h1 {
+    color: blueviolet;
+}
+body {
+    background-color: darkcyan;
+}

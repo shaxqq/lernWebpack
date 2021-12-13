@@ -1,4 +1,4 @@
 const adminAnalytics = () => {
    const random = Math.random(50)
-   console.log(random)
+   console.log('random: ', random)
 }

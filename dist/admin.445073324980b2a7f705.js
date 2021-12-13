@@ -15,7 +15,7 @@
   \******************/
 /***/ (() => {
 
-eval("const adminAnalytics = () => {\r\n   const random = Math.random(50)\r\n   console.log(random)\r\n}\n\n//# sourceURL=webpack:///./admin.js?");
+eval("const adminAnalytics = () => {\r\n   const random = Math.random(50)\r\n   console.log('random: ', random)\r\n}\n\n//# sourceURL=webpack:///./admin.js?");
 
 /***/ })
 
